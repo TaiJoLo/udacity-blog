@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1><a href="/home.html" id="header-text">MY BLOG</a></h1>
+
+      <nav class="navbar">
+        <ul class="navbar-item">
+          <a href="/home.html">Home</a>
+        </ul>
+        <ul class="navbar-item">
+          <a href="about.html">About</a>
+        </ul>
+        <ul class="navbar-item">
+          <a href="#subscribe-container">Subscribe</a>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 id="design-system-h1">Design System</h1>
+      <h2 class="design-header">Typrography</h2>
+      <div class="content">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <strong>Strong</strong> <br />
+        <em>italic</em> <br />
+        <u>underline</u> <br />
+        <a>Links</a>
+        <p class="quote">this is a quote</p>
+        <ol class="ol">
+          <li>Coffe</li>
+          <li>Tea</li>
+        </ol>
+
+        <ul>
+          <li>Coffee</li>
+          <li>Tea</li>
+        </ul>
+      </div>
+      <h2 class="design-header">Color</h2>
+      <div class="content space-between">
+        <div class="color-1"></div>
+        <p class="color-text">#7a89c0</p>
+        <div class="color-2 color-text"></div>
+        <p class="color-text">#d0daee</p>
+        <div class="color-3 color-text"></div>
+        <p class="color-text">#fedd5c</p>
+      </div>
+      <h2 class="design-header">Button</h2>
+      <div class="content space-between btn-container">
+        <button class="card-btn">Default</button>
+        <button class="card-btn btn-outlined">Outlined</button>
+        <button class="card-btn btn-hover">Hover</button>
+      </div>
+
+      <h2 class="design-header">Avatar</h2>
+      <div class="content space-between">
+        <img
+          class="avatar-img"
+          alt="Avatar"
+          src="https://images.unsplash.com/photo-1615000363959-e52262d2c75b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80"
+        />
+      </div>
+      <h2 class="design-header">Author Info & Social Sharing</h2>
+      <div class="content">
+        <div class="author-social">
+          <div class="author_info">
+            <img
+              class="avatar-img"
+              alt="Avatar"
+              src="https://images.unsplash.com/photo-1615000363959-e52262d2c75b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80"
+            />
+            <div class="author">
+              <p class="author-name">Lauren Lo</p>
+              <p class="author-title">Web Developer</p>
+            </div>
+          </div>
+          <div class="social">
+            <div class="social-item">
+              <a href="">
+                <img
+                  alt="Twitter"
+                  class="twitter"
+                  src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+                />
+              </a>
+            </div>
+            <div class="social-item">
+              <a href="">
+                <img
+                  alt="Facebook"
+                  class="facebook"
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png"
+                />
+              </a>
+            </div>
+            <div class="social-item">
+              <a href="">
+                <img
+                  alt="Linkedin"
+                  class="linkedin"
+                  src="https://cdn-icons-png.flaticon.com/512/179/179330.png"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="cards">
+      <div id="subscribe-container">
+        <h2 class="subscribe-header">Subscribe</h2>
+        <div class="subscribe-email">
+          <input
+            class="email-input"
+            type="email"
+            placeholder="Please enter your email"
+          />
+          <button class="subscribe-btn">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p class="copyright">Copyright 2023 Lauren Lo</p>
+    </footer>
+  </body>
+</html>
