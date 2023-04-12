@@ -1,0 +1,15 @@
+/* logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 88px;
+  border: #7a89c0;
+  margin: -1px;
+  padding: 10px;
+}

@@ -1,0 +1,139 @@
+/* layout */
+
+.container {
+  margin: 15vh;
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    margin: 2vh;
+  }
+}
+/* author */
+
+.author-social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+@media screen and (max-width: 599px) {
+  .author-social {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+.author_info {
+  display: grid;
+  grid-template-columns: 80px 200px;
+  grid-template-rows: 100px;
+}
+
+.avatar-img {
+  grid-area: 1/1/1/1;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-sizing: border-box;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.author-name {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  letter-spacing: -0.05rem;
+}
+
+.author-title {
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: -0.01rem;
+}
+
+/* social */
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 599px) {
+  .social {
+    align-items: flex-end;
+  }
+}
+
+.social-item {
+  padding: 0.3rem;
+}
+
+.twitter {
+  width: 30px;
+  object-fit: cover;
+}
+
+.facebook {
+  width: 30px;
+  object-fit: cover;
+}
+
+.linkedin {
+  width: 30px;
+  object-fit: cover;
+}
+
+/* post */
+.post-div {
+  margin-bottom: 20vh;
+  min-width: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 599px) {
+  .post-div {
+    min-width: 250px;
+    margin: 0 auto;
+  }
+}
+
+.post-img {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 100vh;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .post-img {
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .post-img {
+    object-fit: cover;
+    height: 300px;
+  }
+}
+
+.post-img-caption {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 14px;
+  align-self: flex-end;
+  color: lightgray;
+}

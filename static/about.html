@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="about.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/about.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,11 +17,11 @@
 
   <body>
     <header class="header">
-      <h1><a href="./index.html" id="header-text">MY BLOG</a></h1>
+      <h1><a href="../index.html" id="header-text">MY BLOG</a></h1>
 
       <nav class="navbar">
         <ul class="navbar-item">
-          <a href="./index.html">Home</a>
+          <a href="../index.html">Home</a>
         </ul>
         <ul class="navbar-item">
           <a href="./about.html">About</a>
@@ -43,7 +44,7 @@
         <em>italic</em> <br />
         <u>underline</u> <br />
         <a>Links</a>
-        <p class="quote">this is a quote</p>
+        <q>this is a quote</q>
         <ol class="ol">
           <li>Coffe</li>
           <li>Tea</li>
@@ -64,10 +65,16 @@
         <p class="color-text">#fedd5c</p>
       </div>
       <h2 class="design-header">Button</h2>
-      <div class="content space-between btn-container">
-        <button class="card-btn">Default</button>
-        <button class="card-btn btn-outlined">Outlined</button>
-        <button class="card-btn btn-hover">Hover</button>
+      <div class="content space-between">
+        <div class="catd-btn-div">
+          <button class="card-btn">Default</button>
+        </div>
+        <div class="catd-btn-div">
+          <button class="card-btn btn-outlined">Outlined</button>
+        </div>
+        <div class="catd-btn-div">
+          <button class="card-btn btn-hover">Hover</button>
+        </div>
       </div>
 
       <h2 class="design-header">Avatar</h2>
